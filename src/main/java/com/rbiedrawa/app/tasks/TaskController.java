@@ -23,8 +23,8 @@ public class TaskController {
 	public ResponseEntity create() {
 		var taskId = idGenerator.incrementAndGet();
 		log.info("Creating task {}", taskId);
+
 		taskService.simulateLongRunningProcess(taskId);
-		log.info("Returning task {}", taskId);
 
 		return ResponseEntity.accepted().build();
 	}
