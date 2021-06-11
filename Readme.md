@@ -1,4 +1,4 @@
-# Spring Boot async graceful shutdown (PoC)
+# Spring Boot graceful shutdown (PoC)
 
 This repository demonstrates how to configure graceful shutdown of Network and default TaskExecutor threads in Spring
 Boot application.
@@ -20,7 +20,7 @@ Boot application.
 
 * Terminate application while tasks are still running in background threads.
 
-* Check application logs to see that application shutdown gracefully. Sample output below:
+* Check application logs to see if application shutdown gracefully. Sample output below:
   ```shell
   # 2021-06-11 06:39:16.977  INFO [nio-8080-exec-1] com.rbiedrawa.app.tasks.TaskController   : Creating task 1
   # 2021-06-11 06:39:16.990  INFO [    my-thread-1] com.rbiedrawa.app.tasks.TaskService      : Starting long running process id 1
