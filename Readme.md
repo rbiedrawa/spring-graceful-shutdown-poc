@@ -47,7 +47,7 @@ Boot application.
 
 ## References
 
-* [Spring Boot - Graceful shutdown](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.graceful-shutdown)
+* [Spring Boot Docs - Graceful shutdown](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.graceful-shutdown)
 
 ## License
 
