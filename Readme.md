@@ -5,7 +5,7 @@ Boot application.
 
 ## Getting Started
 
-### Prerequisite
+### Prerequisites
 
 * Java 11
 
